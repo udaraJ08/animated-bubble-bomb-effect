@@ -27,7 +27,7 @@ function Circle(x, y, dX, dY, radius, color) {
     c.beginPath();
     c.arc(this.x, this.y, radius, 0, Math.PI * 2, false);
     c.fillStyle = this.color;
-    c.strokeStyle = this.color;
+    c.strokeStyle = '#34495e';
     c.stroke();
     c.fill();
   };
